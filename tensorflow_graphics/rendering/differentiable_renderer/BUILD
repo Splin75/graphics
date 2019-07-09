@@ -26,6 +26,7 @@ py_library(
     deps = [
         # google internal,
         "//tensorflow_graphics/rendering/camera:orthographic",
+        "//tensorflow_graphics/util:safe_ops",
         "//tensorflow_graphics/util:shape",
     ],
 )
@@ -50,6 +51,7 @@ py_test(
         # package dep
 
         # google internal,
+        "//tensorflow_graphics/notebooks/resources:tfg_simplified_logo",
         "//tensorflow_graphics/util:test_case",
     ],
 )
